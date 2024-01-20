@@ -1,0 +1,37 @@
+official website : https://projectlombok.org/
+
+Check the above website to install lombok in IDE
+https://www.baeldung.com/lombok-ide
+
+*Add lombok jar (1.18.20 ) to the project 
+
+Why Lombok :
+Remove boiler plate codes ( getters ,setters , to string , equals & hascode , no arg cpnstructor , all arg constructor)
+
+Check About -> Eclipse / STS
+Lombok v1.18.20 "Envious Ferret" is installed. https://projectlombok.org/
+
+
+
+********************************************************************************
+
+https://www.baeldung.com/intro-to-project-lombok
+
+***Once adding the annotation -> check the " outline " window ineclipse /sts
+It will show the all methods related to that annotation:
+
+Annotations :
+
+@Getter 
+
+@Setter 
+
+@NoArgsConstructor
+
+
+In general, we should avoid using Lombok to 
+generate the equals() and hashCode() methods for our JPA entities.
+
+For @Slf4j
+slf4j-api-1.7.30.jar
+Need to add log 4j jar in build path
